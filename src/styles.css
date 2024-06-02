@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+.tarjeta {
+    border: 1px solid #ccc; /* Añade un borde sólido alrededor del contenedor de la tarjeta */
+    padding: 16px; /* Añade espacio interno entre el contenido de la tarjeta y su borde */
+    width: 300px; /* Define el ancho de la tarjeta */
+    margin: auto; /* Centra la tarjeta horizontalmente */
+    text-align: center; /* Alinea el texto al centro dentro de la tarjeta */
+    font-family: Arial, sans-serif; /* Define la familia de fuentes para el texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra al contenedor de la tarjeta */
+    border-radius: 8px; /* Redondea las esquinas del borde de la tarjeta */
+    background-color: #f9f9f9; /* Define el color de fondo de la tarjeta */
+  }
+  .tarjeta h1 {
+    margin: 0; /* Elimina el margen alrededor del encabezado */
+    font-size: 24px; /* Define el tamaño de la fuente del encabezado */
+    color: #333; /* Define el color del texto del encabezado */
+  }
+  .tarjeta .posicion {
+    margin: 8px 0; /* Define el margen superior e inferior del párrafo */
+    font-size: 18px; /* Define el tamaño de la fuente del párrafo */
+    color: #555; /* Define el color del texto del párrafo */
+  }
+  .tarjeta .contacto {
+    margin: 4px 0; /* Define el margen superior e inferior del párrafo */
+    font-size: 16px; /* Define el tamaño de la fuente del párrafo */
+    color: #777; /* Define el color del texto del párrafo */
+  }
